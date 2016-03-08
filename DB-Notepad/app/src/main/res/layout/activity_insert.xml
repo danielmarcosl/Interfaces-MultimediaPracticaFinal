@@ -50,7 +50,7 @@
             android:layout_marginRight="2.5dp">
 
             <Button
-                android:id="@+id/insertButton"
+                android:id="@+id/buttonInsert"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:layout_marginBottom="5dp"
@@ -68,7 +68,7 @@
             android:layout_marginLeft="2.5dp">
 
             <Button
-                android:id="@+id/discardButton"
+                android:id="@+id/buttonDiscard"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:background="#ffd9d9"
