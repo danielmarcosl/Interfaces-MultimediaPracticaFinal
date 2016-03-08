@@ -5,9 +5,11 @@
     <string name="action_settings">Opciones</string>
     <string name="val">Texto:</string>
     <string name="cod">Codigo:</string>
-    <string name="ins">Insertar</string>
-    <string name="upd">Actualizar</string>
-    <string name="del">Eliminar</string>
-    <string name="que">Consultar</string>
+    <string name="ins">Insertar Valores</string>
+    <string name="upd">Actualizar Valores</string>
+    <string name="del">Eliminar Valores</string>
+    <string name="que">Consultar Valores</string>
+    <string name="dis">Descartar</string>
+    <string name="wassap">Enviar por Wassap</string>
 
 </resources>

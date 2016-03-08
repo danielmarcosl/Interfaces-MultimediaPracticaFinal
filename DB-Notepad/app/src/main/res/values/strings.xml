@@ -5,9 +5,11 @@
     <string name="action_settings">Settings</string>
     <string name="val">Text:</string>
     <string name="cod">Code:</string>
-    <string name="ins">Insert</string>
-    <string name="upd">Update</string>
-    <string name="del">Delete</string>
+    <string name="ins">Insert Values</string>
+    <string name="upd">Update Values</string>
+    <string name="del">Delete Values</string>
     <string name="que">Query</string>
+    <string name="dis">Discard</string>
+    <string name="wassap">Send by Wassap</string>
 
 </resources>
