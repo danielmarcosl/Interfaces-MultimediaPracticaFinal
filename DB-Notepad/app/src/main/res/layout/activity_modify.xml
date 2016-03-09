@@ -29,7 +29,7 @@
                 android:layout_height="match_parent"
                 android:inputType="textMultiLine"
                 android:ems="10"
-                android:id="@+id/textField"
+                android:id="@+id/textFieldMod"
                 android:background="@null" />
         </LinearLayout>
     </ScrollView>
@@ -84,7 +84,7 @@
                 android:text="@string/wassap" />
 
             <Button
-                android:id="@+id/buttonDiscard"
+                android:id="@+id/buttonDiscardMod"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:background="#ffd9d9"

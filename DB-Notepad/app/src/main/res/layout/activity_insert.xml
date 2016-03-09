@@ -29,7 +29,7 @@
                 android:layout_height="match_parent"
                 android:inputType="textMultiLine"
                 android:ems="10"
-                android:id="@+id/textField"
+                android:id="@+id/textFieldIns"
                 android:background="@null" />
         </LinearLayout>
     </ScrollView>
@@ -68,7 +68,7 @@
             android:layout_marginLeft="2.5dp">
 
             <Button
-                android:id="@+id/buttonDiscard"
+                android:id="@+id/buttonDiscardIns"
                 android:layout_width="match_parent"
                 android:layout_height="35dp"
                 android:background="#ffd9d9"
