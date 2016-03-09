@@ -24,6 +24,7 @@ public class MainActivity extends Activity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
+        initializeDB();
         emptyAll();
         fillArray();
         mountListView();
@@ -42,13 +43,20 @@ public class MainActivity extends Activity {
     protected void onResume() {
         super.onResume();
 
+        initializeDB();
         emptyAll();
         fillArray();
         mountListView();
     }
 
+    private void initializeDB() {
+        dbnotepadSQLiteHelper dbnt = new dbnotepadSQLiteHelper(this, "dbnotepad", null, 1);
+        db = dbnt.getWritableDatabase();
+    }
+
     private void fillArray() {
-        Cursor c = db.rawQuery("SELECT code, text FROM dbnotepad", null);
+
+        Cursor c = db.rawQuery("SELECT code, content FROM notepad", null);
 
         if (c.moveToFirst()) {
             do {
