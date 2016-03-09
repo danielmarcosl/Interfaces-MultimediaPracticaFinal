@@ -8,7 +8,7 @@ import android.database.sqlite.SQLiteOpenHelper;
 public class dbnotepadSQLiteHelper extends SQLiteOpenHelper {
 
     // SQL query for create table
-    String sqlCreate = "CREATE TABLE IF NOT EXISTS dbnotepad (cod INTEGER, text TEXT)";
+    String sqlCreate = "CREATE TABLE IF NOT EXISTS dbnotepad (code INTEGER, text TEXT)";
 
     public dbnotepadSQLiteHelper(Context cod, String text, CursorFactory factory, int version) {
         super(cod, text, factory, version);
